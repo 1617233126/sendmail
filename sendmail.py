@@ -4,7 +4,7 @@ import email.mime.text
  
  msg=email.mime.multipart.MIMEMultipart()
  msg['from']='1078437234@qq.com'
- msg['to']='1479510302@qq.com'
+ msg['to']='2098361287@qq.com'
  msg['subject']='test'
  content='''''
      你好，
@@ -19,5 +19,5 @@ import email.mime.text
  smtp=smtplib.SMTP()
  smtp.connect('smtp.qq.com','25')
  smtp.login('1078437234@qq.com','niceW001')
- smtp.sendmail('1078437234@qq.com','1479510302@qq.com',str(msg))
+ smtp.sendmail('1078437234@qq.com','2098361287@qq.com',str(msg))
  smtp.quit()
